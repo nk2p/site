@@ -1,0 +1,30 @@
+body{
+	background-color: lightsalmon;
+	font-size: 24px;
+	color: blueviolet;
+}
+p{
+	font-size: 50px;
+	background-color: orange;
+	color: blueviolet;
+}
+label{
+	font-size: 24px;
+	color: darkorchid;
+}
+.in1{
+	height: 50px;
+	width: 240px;
+	font-size: 24px;
+	color: blueviolet;
+}
+.btn{
+	font-size: 24px;
+	padding: 3px;
+	color: violet;
+	background: lightcyan;
+}
+.btn:hover{
+	background-color: violet;
+	color: lightcyan;
+}

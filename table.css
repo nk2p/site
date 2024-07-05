@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Comfortaa:wght@300..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat+Alternates&family=Rubik+Glitch&family=Seymour+One&display=swap');
+
+body{background-color:silver;  }
+
+	
+
+p{ 
+font-size: 50px;
+font-family: "Comfortaa", sans-serif;
+text-align: center;
+color: navy;
+}
+table{
+	border: double 5px navy;
+    width: 50%;
+    font-size: 23px;
+    border-collapse: separate;
+    margin: auto;
+    font-family: "Comfortaa", sans-serif;
+}
+
+th,td{
+	border: solid 2px royalblue;
+width: 25%;
+height: 1cm;
+}
+tr:hover{
+	background-color: lightgrey;
+}
+td:hover{
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 700;
+	color: black;
+	background-image: url(https://media2.giphy.com/media/QsOEd9P0gJ5ZPDyUbu/giphy.gif);
+}
+tr:nth-child(odd){
+background-color: lavender;
+}
+tr:nth-child(even){
+background-color: slategrey;
+}
+.sc{
+	text-align: right;
+	vertical-align: middle;
+	color: deepskyblue;
+	font-style: italic;
+}
+caption{
+	font-size: 50px;
+	color:#2E8B57;
+	background: linear-gradient(to left red,orange,yellow,green,blue,indigo,purple);
+}

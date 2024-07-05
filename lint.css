@@ -1,0 +1,42 @@
+body{
+     background-image: url(https://marketplace.canva.com/EAFCO6pfthY/1/0/1600w/canva-blue-green-watercolor-linktree-background-F2CyNS5sQdM.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+ul,ol,dl{
+   color: blue;
+   font-size: 50px;
+   text-shadow: 0px 0px 20px white;
+   margin-left: 100px;
+}
+p{
+  font-size: 50px;
+  text-align: center;
+}
+.l1{
+    padding-left: 10px;
+}
+
+@counter-style circled-digits {
+  system: cyclic;
+  symbols: 😀 👻 👽 👾 🤖 🎃 😹 👋 🦉 💋;
+  suffix: " ";
+}
+.l2{
+list-style: circled-digits;}
+@counter-style ukr-letter {
+  system: fixed;
+  symbols: а б в г ґ д е є ж з и і ї й к л м н о п р с т у ф х ц ч ш щ ь ю я;
+  suffix: ")";
+}
+ul.l3{
+  list-style: ukr-letter;
+
+}
+.l3 li{
+padding-left: 10px;}
+@media only screen and (max-width:800px){
+  nav,main,aside, .overlay{
+    width: 100%;
+  }
+}

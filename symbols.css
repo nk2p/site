@@ -1,0 +1,55 @@
+body{
+	background-color: lightsalmon;
+}
+p{
+	font-size: 50px;
+	color: yellow;
+	background-color: lightskyblue;
+}
+.ex1{
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+.ex2{
+	font-family: cursive;
+	font-weight: 900;
+}
+.ex3{
+	font-family: 'Lobster', sans-serif;
+	font-variant: small-caps;
+}
+.ex4{
+	font-family: 'Pacifico', cursive;
+}
+.ex5{
+	font-family: 'Russo One', sans-serif;
+	color: darkred;
+	background-color: black;
+}
+.ex6{
+	text-shadow: 0 0 10px darkblue;
+}
+.ex7{
+	text-shadow: 2px -3px red;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+.ex8{
+	text-shadow: 1 px 1 px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+	color: black;
+	font: 2.5em Georgia, serif;
+	background-color: lemonchiffon;
+}
+.ex9{
+	text-decoration: underline;
+	text-decoration-style: wavy;
+	text-underline-position: under;
+	text-decoration-color: blue;
+	height: 100px;
+}
+.f1{
+	font-size: 2em;
+	color: orange;
+	font-family: 'Pacifico', cursive;
+	text-shadow: 5px -5px maroon;
+}
